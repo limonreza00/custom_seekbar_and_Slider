@@ -31,6 +31,23 @@
         app:tickColorActive="#0091EA"
         app:tickColorInactive="#FF6D00"
         app:thumbColor="#00C853"
-        app:labelBehavior="floating"/>
+        app:labelBehavior="visible"
+        android:contentDescription="@string/slider"/>
+
+    <com.google.android.material.slider.RangeSlider
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:valueFrom="0.0"
+        android:valueTo="100.0"
+        app:values="@array/initial_slider_values"
+        android:contentDescription="@string/range_slider"
+        app:labelBehavior="visible"
+        android:stepSize="5"
+        app:trackColorInactive="#6200EA"
+        app:trackColorActive="#00C853"
+        app:tickColorActive="#00C853"
+        app:tickColorInactive="#6200EA"
+        app:thumbColor="#00C853"/>
 
 </LinearLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Custom Seekbar and Slider</string>
+    <string name="slider">Slider</string>
+    <string name="range_slider">Range Slider</string>
 </resources>
